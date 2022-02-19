@@ -41,6 +41,21 @@ public class GithubIssue implements Cloneable {
                 this.getId());
     }
 
+    /**
+     * Shallow Copy
+     * @return
+     * @throws CloneNotSupportedException
+     */
+/*    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        return super.clone();
+    }*/
+
+    /**
+     * Deep Copy
+     * @return
+     * @throws CloneNotSupportedException
+     */
     @Override
     protected Object clone() throws CloneNotSupportedException {
         GithubRepository repository = new GithubRepository();
