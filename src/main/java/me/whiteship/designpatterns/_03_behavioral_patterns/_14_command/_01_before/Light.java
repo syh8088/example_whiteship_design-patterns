@@ -1,5 +1,8 @@
 package me.whiteship.designpatterns._03_behavioral_patterns._14_command._01_before;
 
+/**
+ * 수신자(receiver)
+ */
 public class Light {
 
     private boolean isOn;
