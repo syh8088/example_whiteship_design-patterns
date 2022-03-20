@@ -2,6 +2,9 @@ package me.whiteship.designpatterns._03_behavioral_patterns._17_mediator._02_aft
 
 import java.time.LocalDateTime;
 
+/**
+ * Mediator 역활
+ */
 public class FrontDesk {
 
     private CleaningService cleaningService = new CleaningService();
